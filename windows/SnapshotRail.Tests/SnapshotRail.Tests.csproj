@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../SnapshotRail/DismissedCaptureStore.cs" Link="DismissedCaptureStore.cs" />
+    <Compile Include="../SnapshotRail/RailSessionStore.cs" Link="RailSessionStore.cs" />
+    <Compile Include="../SnapshotRail/ImageFingerprint.cs" Link="ImageFingerprint.cs" />
+  </ItemGroup>
+</Project>
